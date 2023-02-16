@@ -25,11 +25,12 @@ if p4  in 'S':
     cont += 1
 if p5  in 'S':
     cont += 1
+    
 if cont == 1:
     print('Inocente...')
-if cont == 2:
+elif cont == 2:
     print('Suspeita...')
-if cont == 3 or cont == 4:
+elif cont == 3 or cont == 4:
     print('Cúmplice...')
-if cont == 5:
+else:
     print('Assassino...')
